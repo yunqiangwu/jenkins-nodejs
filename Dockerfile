@@ -1,4 +1,4 @@
 FROM jenkinsci/blueocean:latest
 
-RUN apk add --no-cache nodejs
+RUN sudo apk add --no-cache nodejs
 
